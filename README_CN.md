@@ -17,6 +17,24 @@
 
 * 复制config.json.example，并重命名为config.json，然后完善相关的配置信息
 
+  ```json
+  {
+    "api_key": "api key",
+    "api_secret": "api secret",
+    "api_passphrase": "api pass phrase",
+    // 是否是沙盒环境  
+    "is_sandbox": true,
+    // 合约名称，比如：XBTUSDTM 
+    "symbol": "contract name",
+    // 杠杆倍数，比如：5
+    "leverage": "Leverage of the order",
+    // 开仓数量，比如：1
+    "size": "Order size. Must be a positive number"
+  }
+  ```
+
+  
+
 * 让你的策略运行起来：
 
   ```shell
@@ -24,3 +42,4 @@
   ```
 
   
+
