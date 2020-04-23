@@ -9,10 +9,9 @@
 ## 如何使用
 
 * 克隆该策略项目至本地后，安装依赖：
-
-```shell script
-pip install python-kumex
-```
+  ```shell script
+  pip install python-kumex
+  ```
 
 * 复制config.json.example，并重命名为config.json，然后完善相关的配置信息
 
