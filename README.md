@@ -1,48 +1,50 @@
-# 简单网格策略
+# Simple_grid_strategy
 
-## 策略说明
+## Strategy description
 
-均值：（当前最新买盘最高 + 当前最新卖盘最低）/ 2
+Average value: (current bid + current ask) / 2  
 
-开仓：在盘口挂出买1和卖1，当你的买单或卖单完成后，再重新开启相应的仓位，保持你始终有买1和卖1的订单
+Open position: place bid and ask position, if your order has been taken, open the new position and keep the bid_ask position.  
 
-**请注意，该策略是在KuMEX盘口挂出买1和卖1订单**。
+**Notice: This strategy runs in KuMex.** 
 
-**这里仅提供一个简单且不完备的交易策略，所以在使用时请注意规避风险，当然，我们不希望你出现较多的亏损，所以在未经自己亲手测试之前，请千万不要直接在实际环境使用，我们也不想你成为一个慈善家！！！**
+**Moreover, KuCoin provides the transaction data of level 3, great matching engine, and the commission discount specially offers to the API customers, which could greatly reduce the disadvantages of the trading operations. At the same time, we offer the sandbox environment as the data testing support to avoid the risks.**
 
-**不过，如果你想在实际环境中利用策略获得稳定的盈利，我们希望你能够在sandbox环境配合其他参数或是策略进行测试调整，以使你能够达到目的，我们也非常期待你能分享你的测试数据以及独到的见解。**
+**Only a simple and incomplete trading strategy is provided here, so please pay attention to avoiding risks when using it. Of course, we do not want you to suffer more losses, so please do not directly run it in the actual environment before you have tested it yourself. We do not want you to become a philanthropist! ! !**
 
-**当然，如果这个过程中，你遇到任何问题需要帮助亦或是有赚钱的策略想要分享，请在ISSUE中反映，我们会努力及时响应。**
+**If you want to use the strategy in the actual environment to earn stable profits, we hope that you can make test adjustments in the sandbox environment with other parameters or strategies to enable you to achieve your goals. We also look forward to sharing your test data and Insights.**
 
-## 如何使用
+**Surely, if you encounter any problems in this process, or you have a profitable strategy to share, please reflect in ISSUE, we will try to respond in a timely manner.**
 
-* 克隆该策略项目至本地后，安装依赖：
+## How to use
+
+* After clone this project to your local, install the dependency:
 
   ```shell script
   pip install python-kumex
   ```
 
-* 复制config.json.example，并重命名为config.json，然后完善相关的配置信息
+* Paste config.json.example,  rename as config.json, then add the relevant configuration information: 
 
   ```json
   {
     "api_key": "api key",
     "api_secret": "api secret",
     "api_passphrase": "api pass phrase",
-    // 是否是沙盒环境  
+    // if sandbox  
     "is_sandbox": true,
-    // 合约名称，比如：XBTUSDTM 
+    // contract name, e.g.:XBTUSDTM 
     "symbol": "contract name",
-    // 杠杆倍数，比如：5
+    // leverage, e.g.:5
     "leverage": "Leverage of the order",
-    // 开仓数量，比如：1
+    // order size, e.g.:1
     "size": "Order size. Must be a positive number"
   }
   ```
 
   
 
-* 让你的策略运行起来：
+* Run your strategy:
 
   ```shell
   ./simple_grid.py
