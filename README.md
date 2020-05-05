@@ -26,7 +26,7 @@ Open position: place bid and ask position, if your order has been taken, open th
 
 * Paste config.json.example,  rename as config.json, then add the relevant configuration information: 
 
-  ```json
+  ```
   {
     "api_key": "api key",
     "api_secret": "api secret",
