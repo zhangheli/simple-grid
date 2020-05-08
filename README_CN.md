@@ -40,17 +40,17 @@
 
     * 安装Python3：
   
-    ```shell
-    brew install python
-    ```
+      ```shell
+      brew install python
+      ```
 
     * 确认是否安装成功：
   
-    ```shell
-    python3 --version
-    ```
+      ```shell
+      python3 --version
+      ```
 
-    ![](./img/python_version.gif)
+      ![](./img/python_version.gif)
 
 * 确保你已经安装git (mac 自带该软件,终端输入`which git`，查看安装位置)，未安装者请前往官网[git](https://git-scm.com/)安装。
 
