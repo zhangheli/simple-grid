@@ -48,7 +48,7 @@
   
   当输出为**3.7...或是更高版本**代表你已经安装成功。
   
-* 打开命令终端，克隆项目至本地：
+* 确保你已经安装[git](https://git-scm.com/)，打开命令终端，克隆项目至本地：
 
   ```shell
   git clone https://github.com/Kucoin-academy/simple-grid.git
@@ -63,7 +63,10 @@
   ```
 
   ![pip_install](./img/pip_install.gif)
-* 打开克隆好的项目，复制config.json.example，并重命名为config.json，然后完善相关的配置信息
+  
+* 打开克隆好的项目，复制config.json.example，并重命名为config.json。
+
+* 用文本编辑器打开config.json，然后完善相关的配置信息：
 
   ```
   {
