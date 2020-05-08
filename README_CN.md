@@ -54,7 +54,7 @@
   git clone https://github.com/Kucoin-academy/simple-grid.git
   ```
 
-![git_clone](./img/git_clone.gif)
+  ![git_clone](./img/git_clone.gif)
 
 * 安装项目依赖：
 
@@ -62,7 +62,7 @@
   pip install python-kumex
   ```
 
-![pip_install](./img/pip_install.gif)
+  ![pip_install](./img/pip_install.gif)
 * 打开克隆好的项目，复制config.json.example，并重命名为config.json，然后完善相关的配置信息
 
   ```
