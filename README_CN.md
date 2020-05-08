@@ -26,29 +26,34 @@
 
 ## 如何使用
 
-* 安装Python
+* 安装[Python](https://www.python.org/)
 
-  * 安装[Homebrew](http://brew.sh/)：
-  
-    ```shell
-    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-    ```
-  
-  * 安装[python3](https://www.python.org/)：
-  
+  * MAC OS X安装
+
+    * 安装[Homebrew](http://brew.sh/)：
+
+      
+      ```shell
+      /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+      ```
+
+    * 安装[Python3](https://www.python.org/)：
+
     ```shell
     brew install python
     ```
-  
-  * 确认是否安装成功：
-  
+
+    * 确认是否安装成功：
+
     ```shell
     python --version
     ```
-  
-  当输出为**3.7...或是更高版本**代表你已经安装成功。
-  
-* 确保你已经安装[git](https://git-scm.com/)，打开命令终端，克隆项目至本地：
+
+    ​	   当输出为**3.7...或是更高版本**代表你已经安装成功。
+
+  * 其他系统请前往[Python](https://www.python.org/)官网自行安装。
+
+* 确保你已经安装[git](https://git-scm.com/)，打开命令终端或git GUIs，克隆项目至本地：
 
   ```shell
   git clone https://github.com/Kucoin-academy/simple-grid.git
