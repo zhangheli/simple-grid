@@ -28,24 +28,26 @@
 
 * 安装Python
 
-  * Windows/Linux系统请前往[Python](https://www.python.org/)官网自行安装。
+  * Windows系统请前往[Python](https://www.python.org/downloads/windows/)官网自行安装，64位请选择1，32位请选择2。
+
+    <img src="./img/python_download.png" style="zoom:50%" />
 
   * MAC OS X安装
 
     * 打开命令终端，输入以下命令安装Homebrew：
-  
+
       ```shell
       /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
       ```
 
     * 安装Python3：
-  
+
       ```shell
       brew install python
       ```
 
     * 确认是否安装成功：
-  
+
       ```shell
       python3 --version
       ```
@@ -99,7 +101,6 @@
   ./simple_grid.py
   ```
   
-
 * Windows 用以下命令让你的策略运行起来：
 
   ```shell
