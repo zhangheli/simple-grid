@@ -87,5 +87,3 @@
   cd simple_grid
   ./simple_grid.py
 ```
-  
-  
