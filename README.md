@@ -53,7 +53,7 @@ Surely, if you encounter any problems in this process, or you have a profitable 
 
   * Please download python in [Python](https://www.python.org/) official website for other system requirement.
 
-* Confirm that you have already download [git](https://git-scm.com/), open command terminal or git GUIs, clone this project to your local:
+* Confirm that you have already downloaded [git](https://git-scm.com/), open command terminal or git GUIs, clone this project to your local:
 
   ```shell
   git clone https://github.com/Kucoin-academy/simple-grid.git
