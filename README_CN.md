@@ -26,48 +26,51 @@
 
 ## 如何使用
 
-* 安装[Python](https://www.python.org/)
+* 安装Python
+
+  * Windows/Linux系统请前往[Python](https://www.python.org/)官网自行安装。
 
   * MAC OS X安装
 
-    * 安装[Homebrew](http://brew.sh/)：
-
-      
+    * 打开命令终端，输入以下命令安装Homebrew：
+  
       ```shell
       /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
       ```
 
-    * 安装[Python3](https://www.python.org/)：
-
-    ```shell
-    brew install python
-    ```
+    * 安装Python3：
+  
+      ```shell
+      brew install python
+      ```
 
     * 确认是否安装成功：
+  
+      ```shell
+      python3 --version
+      ```
 
-    ```shell
-    python --version
-    ```
+      ![](./img/python_version.gif)
 
-    ​	   当输出为**3.7...或是更高版本**代表你已经安装成功。
-
-  * 其他系统请前往[Python](https://www.python.org/)官网自行安装。
-
-* 确保你已经安装[git](https://git-scm.com/)，打开命令终端或git GUIs，克隆项目至本地：
-
-  ```shell
-  git clone https://github.com/Kucoin-academy/simple-grid.git
-  ```
-
-  ![git_clone](./img/git_clone.gif)
+* 确保你已经安装git (mac 自带该软件,终端输入`which git`，查看安装位置)，未安装者请前往官网[git](https://git-scm.com/)安装。
 
 * 安装项目依赖：
 
   ```shell script
-  pip install python-kumex
+  pip3 install python-kumex
   ```
 
   ![pip_install](./img/pip_install.gif)
+  
+* 新建文件夹，并打开文件所在命令终端（windows在文件夹空白处右键后点击git bash here）。
+  
+* 在窗口输入以下命令，克隆项目至本地：
+  
+  ```shell
+  git clone https://github.com/Kucoin-academy/simple-grid.git
+  ```
+  
+  ![git_clone](./img/git_clone.gif)
   
 * 打开克隆好的项目，复制config.json.example，并重命名为config.json。
 
@@ -89,10 +92,20 @@
   }
   ```
 
-* 让你的策略运行起来：
+* Mac/Linux 用以下命令让你的策略运行起来：
 
   ```shell
-  cd simple_grid
+  cd simple-grid
   ./simple_grid.py
   ```
+  
+
+* Windows 用以下命令让你的策略运行起来：
+
+  ```shell
+  cd simple-grid
+  simple_grid.py
+  ```
+
+
 
