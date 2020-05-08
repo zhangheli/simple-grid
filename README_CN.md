@@ -34,7 +34,7 @@
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     ```
   
-  * 安装python3：
+  * 安装[python3](https://www.python.org/)：
   
     ```shell
     brew install python
