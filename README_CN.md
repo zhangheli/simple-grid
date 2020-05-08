@@ -104,7 +104,7 @@
 
   ```shell
   cd simple-grid
-  simple_grid.py
+  py simple_grid.py
   ```
 
 
