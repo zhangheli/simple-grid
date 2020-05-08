@@ -34,19 +34,19 @@
 
   * MAC OS X安装
 
-    * 打开命令终端，输入以下命令安装Homebrew：
+    * 打开命令终端，输入以下命令安装Homebrew（安装过程中需要输入**电脑密码**）：
 
       ```shell
       /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
       ```
 
-    * 安装Python3：
+    * 在命令终端输入以下命令，安装Python3：
 
       ```shell
       brew install python
       ```
 
-    * 确认是否安装成功：
+    * 在命令终端输入以下命令，确认是否安装成功：
 
       ```shell
       python3 --version
@@ -56,7 +56,7 @@
 
 * 确保你已经安装git (mac 自带该软件,终端输入`which git`，查看安装位置)，未安装者请前往官网[git](https://git-scm.com/)安装。
 
-* 安装项目依赖：
+* 在命令终端输入以下命令，安装项目依赖：
 
   ```shell script
   pip3 install python-kumex
@@ -64,9 +64,9 @@
 
   ![pip_install](./img/pip_install.gif)
   
-* 新建文件夹，并打开文件所在命令终端（windows在文件夹空白处右键后点击git bash here）。
+* 在你需要跑策略的位置新建文件夹（例如桌面），**右键**点击新建的文件夹选择**“新建位于文件夹位置的终端窗口”**（**windows系统**：在右键点击文件夹点击**git Bash here**）。
   
-* 在窗口输入以下命令，克隆项目至本地：
+* 在上一步打开的窗口中输入以下命令，克隆项目至本地：
   
   ```shell
   git clone https://github.com/Kucoin-academy/simple-grid.git
@@ -74,9 +74,7 @@
   
   ![git_clone](./img/git_clone.gif)
   
-* 打开克隆好的项目，复制config.json.example，并重命名为config.json。
-
-* 用文本编辑器打开config.json，然后完善相关的配置信息：
+* 打开克隆好的项目（simple-grid）文件夹，将**config.json.example**文件重命名为**config.json**，并用文本编辑器（比如**记事本**）打开**config.json**，然后完善相关的配置信息：
 
   ```
   {
@@ -94,19 +92,27 @@
   }
   ```
 
-* Mac/Linux 用以下命令让你的策略运行起来：
+* Mac/Linux **在项目目录下**打开命令终端：
 
   ```shell
   cd simple-grid
+  ```
+  * 用以下命令让你的策略运行起来：
+  
+  ```shell
   ./simple_grid.py
   ```
   
-* Windows 用以下命令让你的策略运行起来：
+* Windows **在项目目录下**打开命令终端：
 
   ```shell
   cd simple-grid
+  ```
+  * 用以下命令让你的策略运行起来：
+  
+  ```shell
   py simple_grid.py
   ```
-
-
+  
+  
 
