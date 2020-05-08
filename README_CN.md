@@ -34,24 +34,23 @@
 
     * 打开命令终端，输入以下命令安装Homebrew：
   
-      
       ```shell
-    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+      /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
       ```
 
     * 安装Python3：
   
     ```shell
-  brew install python
+    brew install python
     ```
 
     * 确认是否安装成功：
   
     ```shell
-  python3 --version
+    python3 --version
     ```
 
-    ​	   ![](./img/python_version.gif)
+    ![](./img/python_version.gif)
 
 * 确保你已经安装git (mac 自带该软件,终端输入`which git`，查看安装位置)，未安装者请前往官网[git](https://git-scm.com/)安装。
 
@@ -69,7 +68,7 @@
   
   ```shell
   git clone https://github.com/Kucoin-academy/simple-grid.git
-```
+  ```
   
   ![git_clone](./img/git_clone.gif)
   
