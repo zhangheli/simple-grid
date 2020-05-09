@@ -32,7 +32,7 @@
 
     <img src="./img/python_download.png" style="zoom:50%" />
 
-    * 在开始安装时请注意将以下勾选：
+    * 在开始安装时请注意将以下选项勾选：
 
       <img src="./img/python_win.png" style="zoom:40%" />
 
