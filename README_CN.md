@@ -64,9 +64,7 @@
 
   ![pip_install](./img/pip_install.gif)
   
-* 在你需要跑策略的位置新建文件夹（例如桌面），**右键**点击新建的文件夹选择**“新建位于文件夹位置的终端窗口”**（**windows系统**：在右键点击文件夹点击**git Bash here**）。
-  
-* 在上一步打开的窗口中输入以下命令，克隆项目至本地：
+* 在你需要跑策略的位置新建文件夹（例如桌面），**右键**点击新建的文件夹选择**“新建位于文件夹位置的终端窗口”**（**windows系统**：在右键点击文件夹点击**git Bash here**），在弹出的窗口中输入以下命令，克隆项目至本地，完成后本地会新增文件夹**simple-grid**：
   
   ```shell
   git clone https://github.com/Kucoin-academy/simple-grid.git
@@ -74,7 +72,7 @@
   
   ![git_clone](./img/git_clone.gif)
   
-* 打开克隆好的项目（simple-grid）文件夹，将**config.json.example**文件重命名为**config.json**，并用文本编辑器（比如**记事本**）打开**config.json**，然后完善相关的配置信息：
+* 打开克隆好的项目（**simple-grid**）文件夹，将**config.json.example**文件重命名为**config.json**，并用文本编辑器（比如**记事本**）打开**config.json**，然后完善相关的配置信息：
 
   ```
   {
@@ -99,9 +97,9 @@
   ```
   * 用以下命令让你的策略运行起来：
   
-  ```shell
-  ./simple_grid.py
-  ```
+    ```shell
+    ./simple_grid.py
+    ```
   
 * Windows **在项目目录下**打开命令终端：
 
@@ -110,9 +108,9 @@
   ```
   * 用以下命令让你的策略运行起来：
   
-  ```shell
-  py simple_grid.py
-  ```
+    ```shell
+    py simple_grid.py
+    ```
   
   
 
