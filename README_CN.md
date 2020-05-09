@@ -32,6 +32,10 @@
 
     <img src="./img/python_download.png" style="zoom:50%" />
 
+    * 在开始安装时请注意将以下勾选：
+
+      <img src="./img/python_win.png" style="zoom:40%" />
+
   * MAC OS X安装
 
     * 打开命令终端，输入以下命令安装Homebrew（安装过程中需要输入**电脑密码**）：
