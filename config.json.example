@@ -5,5 +5,6 @@
   "is_sandbox": true,
   "symbol": "contract name",
   "leverage": "Leverage of the order",
-  "size": "Order size. Must be a positive number"
+  "size": "Order size. Must be a positive number",
+  "depth": 5
 }
