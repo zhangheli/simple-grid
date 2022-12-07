@@ -106,7 +106,7 @@
   * 用以下命令让你的现货策略运行起来：
   
     ```shell
-    ./simple_grid_kucoin.py
+    ./simple_grid_spot.py
     ```
   
 * Windows **在项目目录下**打开命令终端：
@@ -122,7 +122,7 @@
   * 用以下命令让你的现货策略运行起来：
   
     ```shell
-    py simple_grid_kucoin.py
+    py simple_grid_spot.py
     ```
   
   
